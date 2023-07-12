@@ -1,0 +1,4 @@
+git branch -m demo-branch mainProject
+git fetch origin
+git branch -u origin/mainProject mainProject
+git remote set-head origin -a
